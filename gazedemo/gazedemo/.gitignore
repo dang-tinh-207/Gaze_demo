@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# Video quá lớn cho git/GitHub (giới hạn 100 MB/file): sao lưu runs/ bằng USB/Drive
+runs/**/video.mp4
+runs_synth/

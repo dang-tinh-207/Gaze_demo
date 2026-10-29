@@ -1,0 +1,7 @@
+{"type": "run_start", "t": 2988.921308954, "mode": "live", "plates": ["A", "B", "C"], "gaze": "gazelle_dinov2_vitl14_inout (cuda, fp16, preprocess gpu)"}
+{"type": "key", "t": 3004.629967283, "key": "s"}
+{"type": "trial_start", "t": 3004.630102206, "trial_id": 1, "t0": 3004.629967283, "meta": {"mode": "live"}}
+{"type": "key", "t": 3004.953847004, "key": "s"}
+{"type": "key", "t": 3038.674996952, "key": "q"}
+{"type": "trial_cancel", "t": 3038.675074614, "trial_id": 1, "reason": "thoát giữa trial"}
+{"type": "run_end", "t": 3038.675068981, "n_trials": 0, "n_samples": 614, "errors": 0, "video_frames": 747, "video_dropped": 0}

@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "gpu: cần GPU NVIDIA + Gazelle (bỏ qua bằng -m \"not gpu\")",
+    "camera: cần webcam (bỏ qua bằng -m \"not camera\")",
+]

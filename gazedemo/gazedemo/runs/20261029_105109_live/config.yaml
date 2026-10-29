@@ -1,0 +1,89 @@
+source:
+  device: 4
+  backend: auto
+  width: 1280
+  height: 720
+  fps: 30
+  fourcc: null
+  record: true
+  codec: mp4v
+aoi:
+  file: aoi.json
+  names:
+  - A
+  - B
+  - C
+  margin: 0.1
+  min_ray_angle_deg: 15
+gazelle:
+  name: gazelle_dinov2_vitl14_inout
+  repo: ../../gazelle-main (1)/gazelle-main
+  ckpt: null
+  device: auto
+  fp16: true
+  warmup: 5
+  preprocess: gpu
+assign:
+  gamma: 1.0
+  tau_mass: 0.35
+  delta: 0.1
+  tau_inout: 0.5
+dwell:
+  min_dwell_ms: 100
+  max_gap_ms: 150
+  max_interval_s: 0.3
+  lookback_s: 2.0
+  buffer_s: 10.0
+trial:
+  trial_s: null
+  finalize_timeout_s: 1.0
+cue:
+  n_rep: 5
+  cue_s: 4.0
+  settle_s: 1.0
+  seed: 0
+collect:
+  trial_s: 5.0
+  show_result_s: 2.0
+  countdown_s: 1.0
+  seed: 0
+calibration:
+  file: models/calibration.json
+  eps: 0.0001
+score:
+  n_bins: 5
+dataset:
+  min_valid_ratio: 0.6
+train:
+  feature_sets:
+  - g1
+  - g1g2
+  - g1g2g3
+  - all
+  - liking_only
+  - all+liking
+  l2: 1.0
+  k_folds: 5
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  min_trials: 20
+  dwell_T_ms: 1500
+  bootstrap: 1000
+  baseline_eps: 0.05
+ui:
+  font: null
+  font_size: 22
+  panel_width: 660
+  heatmap: true
+  heatmap_alpha: 0.5
+  beep_hz: 1000
+  beep_ms: 150
+synth:
+  hz: 15.0
+  seed: 0
+output:
+  root: runs

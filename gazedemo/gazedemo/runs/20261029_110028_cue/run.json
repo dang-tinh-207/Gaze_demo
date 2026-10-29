@@ -1,0 +1,24 @@
+{
+  "mode": "cue",
+  "created": "2026-10-29T11:00:29",
+  "argv": [
+    "/home/tinh/Documents/Gaze_demo/gazedemo/gazedemo/gazedemo/__main__.py",
+    "cue"
+  ],
+  "plates": [
+    "A",
+    "B",
+    "C"
+  ],
+  "frame_size": [
+    1280,
+    720
+  ],
+  "gaze": "gazelle_dinov2_vitl14_inout (cuda, fp16, preprocess gpu)",
+  "python": "3.10.22",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "source": "4",
+  "participant": null,
+  "model": null,
+  "calibration_T": null
+}

@@ -1,0 +1,33 @@
+{
+  "image_size": [
+    1280,
+    720
+  ],
+  "aois": [
+    {
+      "name": "A",
+      "cx": 421.5,
+      "cy": 530.5,
+      "rx": 166.65,
+      "ry": 135.85000000000002,
+      "angle_deg": 0.0
+    },
+    {
+      "name": "B",
+      "cx": 908.5,
+      "cy": 579.0,
+      "rx": 200.75000000000003,
+      "ry": 107.80000000000001,
+      "angle_deg": 0.0
+    },
+    {
+      "name": "C",
+      "cx": 101.0,
+      "cy": 519.5,
+      "rx": 104.50000000000001,
+      "ry": 70.95,
+      "angle_deg": 0.0
+    }
+  ],
+  "source": "/home/tinh/Documents/Gaze_demo/gazedemo/gazedemo/aoi.json"
+}

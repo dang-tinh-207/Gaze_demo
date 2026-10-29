@@ -1,0 +1,64 @@
+{
+  "created": "2026-10-29T10:07:36",
+  "n": 200,
+  "source": "camera 4 (1280×720, mặc định)",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "python": "3.10.22",
+  "torch": "2.5.1+cu118",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "read_mean_ms": 69.45999850000163,
+  "read_p95_ms": 69.23291989999143,
+  "camera_fps": 14.997780054220366,
+  "rows": [
+    {
+      "model": "gazelle_dinov2_vitl14_inout",
+      "dtype": "fp32",
+      "device": "cuda",
+      "preprocess": "gpu",
+      "gazelle_mean_ms": 171.62941565999915,
+      "gazelle_p95_ms": 175.19387054998674,
+      "assign_mean_ms": 0.12040723499922024,
+      "assign_p95_ms": 0.1329665500406918,
+      "hz_proc": 5.822422306725543,
+      "hz_final": 5.822422306725543
+    },
+    {
+      "model": "gazelle_dinov2_vitl14_inout",
+      "dtype": "fp16",
+      "device": "cuda",
+      "preprocess": "gpu",
+      "gazelle_mean_ms": 58.05619471000198,
+      "gazelle_p95_ms": 59.06054604995461,
+      "assign_mean_ms": 0.110838284999204,
+      "assign_p95_ms": 0.1257566499759832,
+      "hz_proc": 17.191868804550147,
+      "hz_final": 14.997780054220366
+    },
+    {
+      "model": "gazelle_dinov2_vitb14_inout",
+      "dtype": "fp32",
+      "device": "cuda",
+      "preprocess": "gpu",
+      "gazelle_mean_ms": 60.17812442999968,
+      "gazelle_p95_ms": 63.27898445000244,
+      "assign_mean_ms": 0.11021091500225566,
+      "assign_p95_ms": 0.12202180002134354,
+      "hz_proc": 16.586956569251214,
+      "hz_final": 14.997780054220366
+    },
+    {
+      "model": "gazelle_dinov2_vitb14_inout",
+      "dtype": "fp16",
+      "device": "cuda",
+      "preprocess": "gpu",
+      "gazelle_mean_ms": 23.65794474500007,
+      "gazelle_p95_ms": 24.20884355000794,
+      "assign_mean_ms": 0.10052424999770437,
+      "assign_p95_ms": 0.10977680000792134,
+      "hz_proc": 42.090254225158404,
+      "hz_final": 14.997780054220366
+    }
+  ],
+  "advice": "ViT-L fp16 đạt 15.0 Hz (≥ 5) → giữ gazelle.name = gazelle_dinov2_vitl14_inout, gazelle.fp16 = True.",
+  "warning": null
+}

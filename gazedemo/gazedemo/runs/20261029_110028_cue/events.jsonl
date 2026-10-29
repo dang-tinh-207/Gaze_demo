@@ -1,0 +1,48 @@
+{"type": "run_start", "t": 3548.01785461, "mode": "cue", "plates": ["A", "B", "C"], "gaze": "gazelle_dinov2_vitl14_inout (cuda, fp16, preprocess gpu)"}
+{"type": "key", "t": 3575.071960244, "key": "space"}
+{"type": "cue", "t": 3575.071960244, "plate": "A", "index": 1}
+{"type": "trial_start", "t": 3576.074077926, "trial_id": 1, "t0": 3576.071960244, "meta": {"mode": "cue", "cue": "A", "cue_index": 1}}
+{"type": "trial_end", "t": 3579.139036197, "trial_id": 1, "t1": 3579.071960244, "label": "A"}
+{"type": "cue", "t": 3579.139024618, "plate": "C", "index": 2}
+{"type": "trial_start", "t": 3580.190062997, "trial_id": 2, "t0": 3580.139024618, "meta": {"mode": "cue", "cue": "C", "cue_index": 2}}
+{"type": "trial_end", "t": 3583.161781601, "trial_id": 2, "t1": 3583.139024618, "label": "C"}
+{"type": "cue", "t": 3583.161771219, "plate": "A", "index": 3}
+{"type": "trial_start", "t": 3584.186983061, "trial_id": 3, "t0": 3584.161771219, "meta": {"mode": "cue", "cue": "A", "cue_index": 3}}
+{"type": "trial_end", "t": 3587.218877318, "trial_id": 3, "t1": 3587.161771219, "label": "A"}
+{"type": "cue", "t": 3587.218867031, "plate": "C", "index": 4}
+{"type": "trial_start", "t": 3588.246624588, "trial_id": 4, "t0": 3588.218867031, "meta": {"mode": "cue", "cue": "C", "cue_index": 4}}
+{"type": "trial_end", "t": 3591.259260794, "trial_id": 4, "t1": 3591.218867031, "label": "C"}
+{"type": "cue", "t": 3591.259250507, "plate": "A", "index": 5}
+{"type": "trial_start", "t": 3592.281196863, "trial_id": 5, "t0": 3592.259250507, "meta": {"mode": "cue", "cue": "A", "cue_index": 5}}
+{"type": "trial_end", "t": 3595.32079557, "trial_id": 5, "t1": 3595.259250507, "label": "A"}
+{"type": "cue", "t": 3595.320785546, "plate": "A", "index": 6}
+{"type": "trial_start", "t": 3596.349101213, "trial_id": 6, "t0": 3596.320785546, "meta": {"mode": "cue", "cue": "A", "cue_index": 6}}
+{"type": "trial_end", "t": 3599.38326237, "trial_id": 6, "t1": 3599.320785546, "label": "A"}
+{"type": "cue", "t": 3599.383253356, "plate": "B", "index": 7}
+{"type": "trial_start", "t": 3600.414710942, "trial_id": 7, "t0": 3600.383253356, "meta": {"mode": "cue", "cue": "B", "cue_index": 7}}
+{"type": "trial_end", "t": 3603.428490201, "trial_id": 7, "t1": 3603.383253356, "label": "B"}
+{"type": "cue", "t": 3603.428480553, "plate": "B", "index": 8}
+{"type": "trial_start", "t": 3604.451759887, "trial_id": 8, "t0": 3604.428480553, "meta": {"mode": "cue", "cue": "B", "cue_index": 8}}
+{"type": "trial_end", "t": 3607.467076037, "trial_id": 8, "t1": 3607.428480553, "label": "B"}
+{"type": "cue", "t": 3607.467066882, "plate": "C", "index": 9}
+{"type": "trial_start", "t": 3608.484127005, "trial_id": 9, "t0": 3608.467066882, "meta": {"mode": "cue", "cue": "C", "cue_index": 9}}
+{"type": "trial_end", "t": 3611.499633244, "trial_id": 9, "t1": 3611.467066882, "label": "C"}
+{"type": "cue", "t": 3611.49962348, "plate": "C", "index": 10}
+{"type": "trial_start", "t": 3612.51942246, "trial_id": 10, "t0": 3612.49962348, "meta": {"mode": "cue", "cue": "C", "cue_index": 10}}
+{"type": "trial_end", "t": 3615.537917627, "trial_id": 10, "t1": 3615.49962348, "label": "C"}
+{"type": "cue", "t": 3615.53790754, "plate": "B", "index": 11}
+{"type": "trial_start", "t": 3616.562935998, "trial_id": 11, "t0": 3616.53790754, "meta": {"mode": "cue", "cue": "B", "cue_index": 11}}
+{"type": "trial_end", "t": 3619.582124958, "trial_id": 11, "t1": 3619.53790754, "label": "B"}
+{"type": "cue", "t": 3619.582113273, "plate": "B", "index": 12}
+{"type": "trial_start", "t": 3620.612357802, "trial_id": 12, "t0": 3620.582113273, "meta": {"mode": "cue", "cue": "B", "cue_index": 12}}
+{"type": "trial_end", "t": 3623.643364927, "trial_id": 12, "t1": 3623.582113273, "label": "B"}
+{"type": "cue", "t": 3623.643355875, "plate": "C", "index": 13}
+{"type": "trial_start", "t": 3624.665979356, "trial_id": 13, "t0": 3624.643355875, "meta": {"mode": "cue", "cue": "C", "cue_index": 13}}
+{"type": "trial_end", "t": 3627.687940504, "trial_id": 13, "t1": 3627.643355875, "label": "C"}
+{"type": "cue", "t": 3627.687930461, "plate": "B", "index": 14}
+{"type": "trial_start", "t": 3628.714060928, "trial_id": 14, "t0": 3628.687930461, "meta": {"mode": "cue", "cue": "B", "cue_index": 14}}
+{"type": "trial_end", "t": 3631.756524658, "trial_id": 14, "t1": 3631.687930461, "label": "B"}
+{"type": "cue", "t": 3631.75651466, "plate": "A", "index": 15}
+{"type": "trial_start", "t": 3632.785631946, "trial_id": 15, "t0": 3632.75651466, "meta": {"mode": "cue", "cue": "A", "cue_index": 15}}
+{"type": "trial_end", "t": 3635.812102304, "trial_id": 15, "t1": 3635.75651466, "label": "A"}
+{"type": "run_end", "t": 3635.973230222, "n_trials": 15, "n_samples": 1166, "errors": 0, "video_frames": 1319, "video_dropped": 0}

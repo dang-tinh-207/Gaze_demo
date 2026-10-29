@@ -1,0 +1,100 @@
+{
+  "run": "/home/tinh/Documents/Gaze_demo/gazedemo/gazedemo/runs/20261029_110028_cue",
+  "n_trials": 15,
+  "per_label": {
+    "A": 5,
+    "B": 5,
+    "C": 5
+  },
+  "correct_dd": 0,
+  "correct_p_look": 6,
+  "confusion_dd": [
+    [
+      0,
+      1,
+      0,
+      4
+    ],
+    [
+      1,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      1,
+      0,
+      4
+    ]
+  ],
+  "confusion_p_look": [
+    [
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      3,
+      0,
+      0
+    ]
+  ],
+  "columns": [
+    "A",
+    "B",
+    "C",
+    "none"
+  ],
+  "mean_valid_ratio": 1.0,
+  "n_frames": 612,
+  "reliability": [
+    {
+      "lo": 0.0,
+      "hi": 0.2,
+      "n": 0,
+      "conf": null,
+      "acc": null
+    },
+    {
+      "lo": 0.2,
+      "hi": 0.4,
+      "n": 0,
+      "conf": null,
+      "acc": null
+    },
+    {
+      "lo": 0.4,
+      "hi": 0.6000000000000001,
+      "n": 10,
+      "conf": 0.5518818327999999,
+      "acc": 0.0
+    },
+    {
+      "lo": 0.6000000000000001,
+      "hi": 0.8,
+      "n": 20,
+      "conf": 0.70313167305,
+      "acc": 0.0
+    },
+    {
+      "lo": 0.8,
+      "hi": 1.0,
+      "n": 582,
+      "conf": 0.9529642670790377,
+      "acc": 0.0
+    }
+  ],
+  "ece": 0.9382461686748365,
+  "created": "2026-10-29T11:01:57",
+  "accuracy_dd": 0.0,
+  "accuracy_p_look": 0.4
+}
